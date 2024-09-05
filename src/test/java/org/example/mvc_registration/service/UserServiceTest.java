@@ -122,9 +122,9 @@ class UserServiceTest {
         assertEquals(1, userResultList.size());
         User userResult = userResultList.get(0);
 
-        assertEquals("Sidorov", userResultList.get(0).getName());
-        assertEquals("ghffhg", userResultList.get(0).getPassword());
-        assertEquals("jannet87@list.ru", userResultList.get(0).getEmail());
+        assertEquals("Sidorov", userResult.getName());
+        assertEquals("ghffhg",userResult.getPassword());
+        assertEquals("jannet87@list.ru", userResult.getEmail());
     }
 
 }
